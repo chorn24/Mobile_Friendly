@@ -1,0 +1,129 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.Main_Page {
+    background-color: rgb(234, 255, 237);
+    font-family: "Cascadia Code";
+    text-align: center;
+}
+
+
+.Home_Head {
+    color: rgb(47, 159, 133);
+    background-color: rgb(31, 57, 31);
+    font-size: 20pt;
+    padding: 10pt;
+    background-image: linear-gradient(to right, rgb(43, 108, 43) , rgb(31, 57, 31), rgb(20, 37, 20), rgb(31, 57, 31), rgb(43, 108, 43));
+}
+
+.table_1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Block {
+    display: block;
+    width: 100%;
+    border: none;
+    color: rgb(96, 191, 169) ;
+    background-color: rgb(52, 83, 52);
+    padding: 10px;
+    font-family: Cascadia Code;
+    cursor: pointer;
+    text-align: center;
+}
+
+.Block:hover {
+    background-color: rgb(126, 180, 126);
+    color: black;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100pt;
+    height: 100pt;
+}
+
+
+.NavBar {
+    color: rgb(96, 191, 169) ;
+    text-decoration: none;
+}
+
+.NavBar:hover {
+    color: black;
+}
+
+.WAH {
+    color: rgb(66, 203, 126);
+}
+
+.table_2 {
+    color: rgb(38, 107, 80);
+    border: 3pt;
+    border-color: rgb(3, 84, 37);
+    margin-left: auto;
+    margin-right: auto;
+    border-style:ridge;
+    background: rgb(164, 226, 190);
+    columns: 2;
+    width: 250pt;
+}
+
+.T_Head2 {
+    color: rgb(66, 203, 126);
+}
+
+.Address_Class {
+    border: 2pt;
+    border-color: rgb(3, 84, 37);
+    border-style:solid;
+    width: 120pt;
+    height: 50pt;
+}
+
+.TextBorder {
+    border: 2pt;
+    border-style: solid;
+    border-color: rgb(3, 84, 37);
+    ;
+}
+
+.DA {
+    border: 2pt;
+    border-style: solid;
+    border-color: rgb(3, 84, 37);
+    height: 25pt;
+}
+
+.Donate_Button {
+    display: block;
+    width: 75pt;
+    border: none;
+    color: rgb(96, 191, 169) ;
+    background-color: rgb(79, 128, 79);
+    padding: 10px;
+    font-family: Cascadia Code;
+    cursor: pointer;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Donate_Button:hover {
+    background-color: rgb(94, 155, 94);
+    color: black;
+}
+
+.Link {
+    color: rgb(36, 96, 62);
+    font-family: Cascadia Code;
+}   
+
+.Link:hover {
+    color: rgb(29, 143, 79)
+}
